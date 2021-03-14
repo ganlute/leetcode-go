@@ -1,1 +1,1 @@
-# leetcode-go
+https://leetcode.com/problemset/all/
