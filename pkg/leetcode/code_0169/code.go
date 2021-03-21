@@ -49,6 +49,7 @@ func quickSort(nums []int) {
 			left++
 		}
 		if right > left {
+			// 洞到了左边
 			nums[right] = nums[left]
 			right--
 		}
