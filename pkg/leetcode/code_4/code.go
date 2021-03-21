@@ -1,5 +1,8 @@
 package code_4
 
+// 先合并数组
+// 再求中位数
+// 这种解法有点初级
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	nums3 := make([]int, len(nums1)+len(nums2))
 	n := 0
