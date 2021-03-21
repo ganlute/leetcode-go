@@ -1,9 +1,6 @@
 package code_0169
 
 // 先排序 --> 快排
-// https://www.sohu.com/a/246785807_684445
-// 1、挖坑法
-// 2、指针交换法
 // 再查询
 func majorityElement(nums []int) int {
 	quickSort(nums)
@@ -28,33 +25,35 @@ func majorityElement(nums []int) int {
 	}
 	return -1
 }
-// 挖坑法
+
 func quickSort(nums []int) {
 	if len(nums) == 0 || len(nums) == 1 {
 		return
 	}
-	privot := nums[len(nums)/2]
 	left := 0
+	// 从最左边挖个洞
+	privot := nums[left]
 	right := len(nums) - 1
 
 	for left < right {
-		for nums[right] >= privot && right > left {
+		// 左边有个洞，从右边开始
+		for nums[right] > privot && right > left {
 			right--
 		}
 		if right > left {
-			nums[left], nums[right] = nums[right], nums[left]
+			// 右边空了个洞
+			nums[left] = nums[right]
 			left++
 		}
 		for nums[left] <= privot && right > left {
 			left++
 		}
 		if right > left {
-			nums[left], nums[right] = nums[right], nums[left]
+			nums[right] = nums[left]
 			right--
 		}
 	}
 	nums[left] = privot
-
 	quickSort(nums[:left])
 	quickSort(nums[left+1:])
 }
