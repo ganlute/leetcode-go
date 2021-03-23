@@ -1,1 +1,1 @@
-https://leetcode.com/problems/zigzag-conversion/
+https://leetcode-cn.com/problems/zigzag-conversion/

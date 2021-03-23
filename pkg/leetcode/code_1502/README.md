@@ -1,1 +1,1 @@
-https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/
+https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/

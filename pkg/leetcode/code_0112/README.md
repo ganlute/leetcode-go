@@ -1,1 +1,1 @@
-https://leetcode.com/problems/path-sum/
+https://leetcode-cn.com/problems/path-sum/

@@ -1,1 +1,1 @@
-https://leetcode.com/problems/design-hashset/
+https://leetcode-cn.com/problems/design-hashset/

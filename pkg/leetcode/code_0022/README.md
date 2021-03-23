@@ -1,1 +1,1 @@
-https://leetcode.com/problems/generate-parentheses/
+https://leetcode-cn.com/problems/generate-parentheses/

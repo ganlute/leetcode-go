@@ -1,1 +1,1 @@
-https://leetcode.com/problems/jump-game/
+https://leetcode-cn.com/problems/jump-game/

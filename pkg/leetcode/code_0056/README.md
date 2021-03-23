@@ -1,1 +1,1 @@
-https://leetcode.com/problems/merge-intervals/
+https://leetcode-cn.com/problems/merge-intervals/

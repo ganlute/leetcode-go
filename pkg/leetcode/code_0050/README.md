@@ -1,1 +1,1 @@
-https://leetcode.com/problems/powx-n/
+https://leetcode-cn.com/problems/powx-n/
